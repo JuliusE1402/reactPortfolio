@@ -1,0 +1,43 @@
+.Navbar {
+	display: flex;
+	align-items: center;
+	background-color: #ffffff;
+	height: 8vh;
+	box-shadow: 0px 0px 10px rgb(141, 141, 141);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff; /* Replace with your desired background color */
+	z-index: 100;
+}
+
+.Navbar h3 {
+	transition: color 0.5s ease;
+	margin-right: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.Navbar h3:hover {
+	color: rgb(102, 119, 150);
+}
+
+.Navbar ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: auto; /* Move the ul to the right initially */
+}
+
+.Navbar li {
+	transition: color 0.5s ease;
+	margin-right: 20px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.Navbar li:hover {
+	color: rgb(102, 119, 150);
+}

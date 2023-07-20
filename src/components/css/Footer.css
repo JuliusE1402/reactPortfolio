@@ -1,0 +1,18 @@
+.FooterSection {
+	height: 10vh;
+	background-color: rgb(102, 119, 150);
+	display: flex;
+	justify-content: space-around;
+}
+
+.FooterSection p {
+	font-weight: bold;
+	margin-top: 4vh;
+	color: #ffffff;
+}
+
+.FooterSection img {
+	height: 3vh;
+	padding-top: 3vh;
+	cursor: pointer;
+}

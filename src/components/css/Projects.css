@@ -1,0 +1,66 @@
+.ProjectsSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(247, 247, 247);
+	height: 100vh;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.ProjectsSection img {
+	border-radius: 3%;
+	margin: 1% 0 1% 1%;
+	/* height: 33vh; */
+	width: 25vw;
+	cursor: pointer;
+}
+
+.ProjectBox {
+	display: flex;
+	background-color: #ffffff;
+	width: 50vw;
+	border-radius: 3%;
+	margin: 0 auto;
+	box-shadow: 0px 0px 10px rgb(141, 141, 141);
+}
+
+.ProjectBox button {
+	cursor: pointer;
+	background-color: transparent;
+	margin-top: 3vh;
+	padding: 2%;
+	width: fit-content;
+	border: 0px;
+	font-weight: bold;
+	font-size: large;
+	display: inline-flex;
+}
+
+.ProjectPretext h3 {
+	color: rgb(102, 119, 150);
+	width: 50vw;
+}
+
+.Tech p {
+	display: inline;
+}
+
+.Tech div {
+	background-color: white;
+	box-shadow: 0px 0px 10px rgb(141, 141, 141);
+}
+
+.ProjectText {
+	text-align: center;
+	margin: 0 2vw;
+	max-width: 25vw;
+}
+
+#Technologies {
+	margin-top: 5vh;
+}
+
+#github {
+	width: 1vw;
+}

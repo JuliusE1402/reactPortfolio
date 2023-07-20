@@ -1,0 +1,50 @@
+.centered-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: rgb(247, 247, 247);
+	overflow: hidden;
+}
+
+.Header {
+	max-width: 70vb;
+}
+
+.Header h1 {
+	font-size: 52px;
+}
+
+.Header p {
+	font-size: 20px;
+	text-align: left;
+}
+
+.Julius {
+	float: right;
+	margin-left: 20px;
+	width: 40vb;
+	border-radius: 45%;
+}
+
+.GitHub {
+	width: 4vb;
+	cursor: pointer;
+	margin-top: 2vh;
+}
+
+.TechStack img {
+	width: 5vb;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.TechStack {
+	display: flex;
+	align-items: center;
+	margin-top: 12vh;
+}
+
+.TechStack h4 {
+	margin-right: 10px;
+}

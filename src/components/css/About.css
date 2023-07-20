@@ -1,0 +1,30 @@
+.AboutSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	height: 75vh;
+	max-width: 75vw;
+	overflow: hidden;
+}
+
+.AboutSection img {
+	border-radius: 3%;
+	width: 50vb;
+	margin-right: 2vw;
+	margin-left: 25vw;
+}
+
+.AboutSection h2 {
+	color: rgb(102, 119, 150);
+}
+
+.AboutSection p {
+	text-align: justify;
+	line-height: 22px;
+	color: rgb(70, 70, 70);
+}
+
+.AboutSection h1 {
+	font-size: 25px;
+}
